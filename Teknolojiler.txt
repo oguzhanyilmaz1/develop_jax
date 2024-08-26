@@ -1,0 +1,14 @@
+1. Jax arrayleri immutable'dır.
+2. jax dot product ile jax array çarpmak numpydan daha hızlı. numpy arrayi jax ile çarpmak gpu da orta değer.
+3.Fonksiyonu jit lersek cok daha hızlı çalışıyor. Ama dinamik değer alan fonksiyonlarda mümkün değil.
+4.Jax auto vektörization ve autodiff özelliğine sahip.
+5.jit her çağrıldığında printleri çalıştırmaz.
+6.jit üzerinde dinamik argüman koşmak için statik olanları belirtmek çözüm sağlar.
+7. jitlenen fonksiyonlara girdi verilen değişkenlerin shape i yhada türü değişmedikçe fonksiyonlar tekrardan koşulmaz.
+8.iterator kullanılmıyor.
+9. .set ve .get kullanılmalı
+10. jax hata vermez en son elemanı döndürür.
+11. Direkt jax array toplanmıyor.
+12. jax key state'i değişmezken numpy değişiyor her işlem sonrası.
+13.Numpy stateful iken jax stateless'dır. Numpy deterministik iken jax de aynı anda bırden cok rastgele sayı üretilebilir.
+14.Bazen low level API gerekyor. lax.fori_loop gibi.
